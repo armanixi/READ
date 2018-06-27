@@ -1,0 +1,56 @@
+﻿<Window x:Class="final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="700">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="40*"/>
+			<ColumnDefinition Width="64*"/>
+			<ColumnDefinition Width="71*"/>
+			<ColumnDefinition Width="84*"/>
+		</Grid.ColumnDefinitions>
+		<Image x:Name="Pubg" HorizontalAlignment="Left" Height="311" VerticalAlignment="Center" Width="312" Source="pubgpicture.png" Margin="-39,13,0,-3.2" Grid.ColumnSpan="3" Cursor="Arrow"/>
+		<Image x:Name="AKM" HorizontalAlignment="Left" Height="198" VerticalAlignment="Top" Width="200" Margin="-48,50,0,0" Source="AKM.png" Grid.ColumnSpan="3" Grid.Column="2"/>
+		<Image x:Name="M416" HorizontalAlignment="Left" Height="198" VerticalAlignment="Top" Width="200" Margin="157,50,-12,0" Source="M416.png" Grid.ColumnSpan="2" Grid.Column="2"/>
+		<Image x:Name="M16A4" HorizontalAlignment="Left" Height="198" VerticalAlignment="Top" Width="200" Margin="52,50,0,0" Source="M16A4.png" Grid.ColumnSpan="2" Grid.Column="2"/>
+		<Image x:Name="kar98k" HorizontalAlignment="Left" Height="198" VerticalAlignment="Top" Width="200" Margin="6,153,0,-0.2" Source="kar98k.png" Grid.ColumnSpan="2" Grid.Column="2"/>
+		<Image x:Name="QBZ" HorizontalAlignment="Left" Height="198" VerticalAlignment="Top" Width="200" Margin="102,152.7,0,-0.2" Source="QBZ.png" Grid.ColumnSpan="2" Grid.Column="2"/>
+
+		<Canvas>
+			<local:tag x:Name="head" Canvas.Top="-27" Loaded="tag_Loaded" Canvas.Left="-11"/>
+			<local:tag x:Name="shoulder" Canvas.Top="14" Canvas.Left="16"/>
+			<local:tag x:Name="hand" Canvas.Top="90" Canvas.Left="16"/>
+			<local:tag x:Name="body" Canvas.Top="121" Loaded="body_Loaded"/>
+			<local:UserControl1 x:Name="dick" Canvas.Top="273" Canvas.Left="104"/>
+
+		</Canvas>
+		<Button x:Name="AKMbutton" Click="AKMbutton_Click" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Background="White" Opacity="0" Margin="19.6,117,0,0" Height="65" Grid.Column="2" Cursor="Hand"/>
+		<Button x:Name="M16A4button" Click="M16A4button_Click" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Background="White" Opacity="0" Margin="117.6,117,0,0" Height="66" Grid.Column="2" Cursor="Hand"/>
+		<Button x:Name="M416button" Click="M416button_Click" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="35,117,0,0" Height="65" Grid.Column="3" Cursor="Hand"/>
+		<Button x:Name="Kar98Kbutton"  Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="71,220,0,0" Height="66" Grid.Column="2" Cursor="Hand"/>
+		<Button x:Name="QBZbutton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="-21,220,0,0" Height="66" Grid.Column="3" Cursor="Hand"/>
+		<Image Height="159" VerticalAlignment="Center" Source="插圖4.png" Margin="49.8,-47,-55.4,258.4" Grid.ColumnSpan="3" Grid.Column="1"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="73.2,299,0,-18.6" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="1a.png"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="116.2,299,0,-18.6" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="2a.png"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="159.2,299,-27.4,-18.6" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="3a.png"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="73.2,259,0,0" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="1h.png"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="116.2,259,0,0" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="2h.png"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="159.2,259,-27.4,0" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="3h.png"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="31.2,299,0,-18.6" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="deafult.png"/>
+		<Image HorizontalAlignment="Left" Height="90" Margin="31.2,259,0,0" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="deafult.png"/>
+		<Button x:Name="noh" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="53.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="h1" Click="h1_Click" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="96.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="h2" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="136.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="h3" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="180.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="a3" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="180.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="a2" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="136.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="a1" Click="a1_Click" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="96.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="noa" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="53.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+
+
+	</Grid>
+</Window>
