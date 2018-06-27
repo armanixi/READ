@@ -46,12 +46,29 @@ namespace final
 
         private void M16A4button_Click(object sender, RoutedEventArgs e)
         {
-
+            system.damage = 43;
+            system.Update();
+            Change();
         }
 
         private void M416button_Click(object sender, RoutedEventArgs e)
         {
+            system.damage = 43;
+            system.Update();
+            Change();
+        }
+        private void Kar98Kbutton_Click(object sender, RoutedEventArgs e)
+        {
+            system.damage = 75;
+            system.Update();
+            Change();
+        }
 
+        private void QBZbutton_Click(object sender, RoutedEventArgs e)
+        {
+            system.damage = 43;
+            system.Update();
+            Change();
         }
 
         private void h1_Click(object sender, RoutedEventArgs e)
@@ -82,6 +99,43 @@ namespace final
             system.head_Reduce = 0;
             system.Update();
             Change();
+        }
+
+        private void noa_Click(object sender, RoutedEventArgs e)
+        {
+            system.reduce = 0;
+            system.Update();
+            Change();
+
+        }
+
+        private void h2_Click(object sender, RoutedEventArgs e)
+        {
+            system.head_Reduce = 100;
+            system.Update();
+            Change();
+        }
+
+        private void a2_Click(object sender, RoutedEventArgs e)
+        {
+            system.reduce = 40;
+            system.Update();
+            Change();
+        }
+
+        private void h3_Click(object sender, RoutedEventArgs e)
+        {
+            system.head_Reduce = 112;
+            system.Update();
+            Change();
+        }
+
+        private void a3_Click(object sender, RoutedEventArgs e)
+        {
+            system.reduce = 55;
+            system.Update();
+            Change();
+
         }
     }
 

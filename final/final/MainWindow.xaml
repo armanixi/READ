@@ -31,8 +31,8 @@
 		<Button x:Name="AKMbutton" Click="AKMbutton_Click" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Background="White" Opacity="0" Margin="19.6,117,0,0" Height="65" Grid.Column="2" Cursor="Hand"/>
 		<Button x:Name="M16A4button" Click="M16A4button_Click" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Background="White" Opacity="0" Margin="117.6,117,0,0" Height="66" Grid.Column="2" Cursor="Hand"/>
 		<Button x:Name="M416button" Click="M416button_Click" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="35,117,0,0" Height="65" Grid.Column="3" Cursor="Hand"/>
-		<Button x:Name="Kar98Kbutton"  Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="71,220,0,0" Height="66" Grid.Column="2" Cursor="Hand"/>
-		<Button x:Name="QBZbutton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="-21,220,0,0" Height="66" Grid.Column="3" Cursor="Hand"/>
+		<Button x:Name="Kar98Kbutton" Click="Kar98Kbutton_Click"  Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="71,220,0,0" Height="66" Grid.Column="2" Cursor="Hand"/>
+		<Button x:Name="QBZbutton" Click="QBZbutton_Click" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Background="White" Opacity="0" Margin="-21,220,0,0" Height="66" Grid.Column="3" Cursor="Hand"/>
 		<Image Height="159" VerticalAlignment="Center" Source="插圖4.png" Margin="49.8,-47,-55.4,258.4" Grid.ColumnSpan="3" Grid.Column="1"/>
 		<Image HorizontalAlignment="Left" Height="90" Margin="73.2,299,0,-18.6" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="1a.png"/>
 		<Image HorizontalAlignment="Left" Height="90" Margin="116.2,299,0,-18.6" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="2a.png"/>
@@ -44,12 +44,12 @@
 		<Image HorizontalAlignment="Left" Height="90" Margin="31.2,259,0,0" VerticalAlignment="Top" Width="93" Grid.Column="3" Source="deafult.png"/>
 		<Button x:Name="noh" Click="noh_Click" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="53.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
 		<Button x:Name="h1" Click="h1_Click" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="96.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
-		<Button x:Name="h2" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="136.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
-		<Button x:Name="h3" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="180.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
-		<Button x:Name="a3" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="180.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
-		<Button x:Name="a2" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="136.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="h2" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="136.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand" Click="h2_Click"/>
+		<Button x:Name="h3" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="180.2,284,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand" Click="h3_Click"/>
+		<Button x:Name="a3" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="180.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand" Click="a3_Click"/>
+		<Button x:Name="a2" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="136.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand" Click="a2_Click"/>
 		<Button x:Name="a1" Click="a1_Click" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="96.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
-		<Button x:Name="noa" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="53.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand"/>
+		<Button x:Name="noa" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="53.2,325,0,0" VerticalAlignment="Top" Width="35" Height="36" Opacity="0" Cursor="Hand" Click="noa_Click"/>
 
 
 	</Grid>
