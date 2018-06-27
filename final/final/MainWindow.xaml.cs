@@ -76,6 +76,13 @@ namespace final
             system.Update();
             Change();
         }
+
+        private void noh_Click(object sender, RoutedEventArgs e)
+        {
+            system.head_Reduce = 0;
+            system.Update();
+            Change();
+        }
     }
 
     public class damage_System
